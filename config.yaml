@@ -10,6 +10,7 @@ server:
   log_file_backup_count: 5
 model:
   repo_id: ResembleAI/chatterbox
+  use_multilingual: true
 tts_engine:
   device: cuda
   predefined_voices_path: voices
@@ -20,7 +21,7 @@ paths:
   output: outputs
 generation_defaults:
   temperature: 0.8
-  exaggeration: 1.3
+  exaggeration: 0
   cfg_weight: 0.5
   seed: 0
   speed_factor: 1.0
